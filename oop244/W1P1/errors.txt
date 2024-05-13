@@ -1,0 +1,27 @@
+main_prof.cpp: In function ‘int main()’:
+main_prof.cpp:33:16: error: reference to ‘MAX_NO_OF_SAMPLES’ is ambiguous
+    int samples[MAX_NO_OF_SAMPLES] = { 0 };
+                ^
+main_prof.cpp:28:11: note: candidates are: const int MAX_NO_OF_SAMPLES
+ const int MAX_NO_OF_SAMPLES = 20;
+           ^
+In file included from main_prof.cpp:15:0:
+graph.h:16:12: note:                 const int seneca::MAX_NO_OF_SAMPLES
+  const int MAX_NO_OF_SAMPLES = 20;
+            ^
+main_prof.cpp:40:34: error: reference to ‘MAX_NO_OF_SAMPLES’ is ambiguous
+          noOfSamples = getInt(1, MAX_NO_OF_SAMPLES);
+                                  ^
+main_prof.cpp:28:11: note: candidates are: const int MAX_NO_OF_SAMPLES
+ const int MAX_NO_OF_SAMPLES = 20;
+           ^
+In file included from main_prof.cpp:15:0:
+graph.h:16:12: note:                 const int seneca::MAX_NO_OF_SAMPLES
+  const int MAX_NO_OF_SAMPLES = 20;
+            ^
+main_prof.cpp:48:24: error: ‘samples’ was not declared in this scope
+             getSamples(samples, noOfSamples);
+                        ^
+main_prof.cpp:55:19: error: ‘samples’ was not declared in this scope
+          else if (samples[0] == 0) {
+                   ^

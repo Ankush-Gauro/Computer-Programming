@@ -1,0 +1,8 @@
+graph.cpp: In function ‘void seneca::printGraph(int*, int, const char*)’:
+graph.cpp:44:44: error: too many arguments to function ‘void seneca::printBar(int, int)’
+             printBar(samples[i], max, count);
+                                            ^
+In file included from graph.cpp:13:0:
+graph.h:25:7: note: declared here
+  void printBar(int val, int max);
+       ^

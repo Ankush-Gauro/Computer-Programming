@@ -1,0 +1,13 @@
+/*
+-----------------------------------------------------------------------------
+ Author      : Ankush Gauro
+ Email       : agauro@myseneca.ca
+ Student Id  : 108593237
+ Section     : ZCC
+ Date		 : 2024-01-25
+ I have done all the coding by myself and only copied the code that my professor provided to complete my workshops and assignments.
+-----------------------------------------------------------------------------
+ */
+
+In the final solution of this workshop, I had to go through course notes many times to completely grab the concept and code the solution. For part 1 it was quite easy and I only had to divide the main.cpp into various different files. Here, I didn't need to code any extra logic but just separate the provided code into graph.h, graph.cpp, io.h, io.cpp and main.cpp file.
+However, for the part 2 it was quite difficult and mainly because I had to understand new concepts, I had to research of bubble sort algorithm in order to make the printReport function where I had to swap and compare datas from csv file in order to sort them in descending order and print the output. Here, I had to reread some of ipc notes and reread the modular programming section of oop to get myself compeletely ready for the workshop. To store the values I used an integer array of 10 elements and stored the students marks grouping them into 0-10,10-20 and so on using if conditionals.
