@@ -1,0 +1,12 @@
+/*
+-----------------------------------------------------------------------------
+ Author      : Ankush Gauro
+ Email       : agauro@myseneca.ca
+ Student Id  : 108593237
+ Section     : ZCC
+ Date	     : 2024-02-14
+ I have done all the coding by myself and only copied the code that my professor provided to complete my workshops and assignments.
+-----------------------------------------------------------------------------
+ */
+
+While completing this workshop 4, I had to go through the notes of the oop in order to fully grasp the concepts of encapsulation like constructor and destructors, the concept of current object and member functions and also dynamic memory, overloading and references. In the first part of the workshop (Part 1), I had to make a class called Fridge, with Fridge.cpp and Fridge.h files, which was supposed to contain number of food items upto the max capacity. Here, I had to allocate an array of items defined by FRIDGE_CAP 3, also I created an integer m_numFoods that would represent the number of food items that are currently stored in the fridge. I also had to use the concept of constructor and destructor to initialize the data members to empty and also deallocate (Fridge::~Fridge();) the dynamic memory. In the second part of the workshop(DIY) section I had to create a class called Guitar with Guitar.cpp and Guitar.h files, here I had to work on a class named Guitar with a dynamic array, an integer and a String. Here too, I had to use the concepts of constructor and destructor to intialize the current object to empty state, and deallocate the resources stored by the current object. Here I had to make public member functions like changeString, in which I used an if conditional to change the m_string is the parameter sn is valid and return true otherwise return false, I also made functions like reString that would delete the previous m_string and setup a new one according to the parameters and for this I had to use a for loop to again make the new string, deString to deallocate m_strings and set n_numStrings to 0.
