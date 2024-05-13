@@ -1,0 +1,12 @@
+/*
+-----------------------------------------------------------------------------
+ Author      : Ankush Gauro
+ Email       : agauro@myseneca.ca
+ Student Id  : 108593237
+ Section     : ZCC
+ Date		 : 2024-02-01
+ I have done all the coding by myself and only copied the code that my professor provided to complete my workshops and assignments.
+-----------------------------------------------------------------------------
+ */
+
+While completing this workshop 2, I first of all learned the concepts of reading and writing from the files in the part 1 where I had to make assessment.cpp and Assessment.h with boolean read functions that were supposed to read from the files either gooddata.txt or baddata.txt and there was also a freeMem function whose job was to take an array and it's size as parameters and free the dynamically allocated memory. For this I had to review the secondary storage notes from my ipc class and also various notes from my oop class under foundation module specially the dynamic memory section. Moving on to part 2, here I had to make 4 files in total, Room.h, Room.c, Guest.h, Guest.c, here the main file was already provided, and the mandatory functions we had to make was also given with it's usage. Here, I made set(), print(), book() and vacate() functions as well as 2 structures Room and Guest. The set function sets guest variable and checks if the user entered the age more than 17 or not, the print function takes guest structure as parameter and prints the details of the guest, the book function enters details into the Guest structure, and the vacate function deallocates the memory. For this I had to read the notes from oop files specially the foundation part. Overall I have learned the concepts of files, memory, structures and many more from this workshop
