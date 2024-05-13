@@ -1,0 +1,3 @@
+﻿  Icecream.cpp
+C:\Users\ankus\Desktop\oop\W3p2\Icecream.cpp(139,16): warning C4244: 'return': conversion from 'double' to 'int', possible loss of data
+  W3p2.vcxproj -> C:\Users\ankus\Desktop\oop\W3p2\x64\Debug\W3p2.exe

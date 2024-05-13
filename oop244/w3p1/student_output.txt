@@ -1,0 +1,18 @@
+Script started on Fri 02 Feb 2024 10:18:44 AM EST
+==55852== Memcheck, a memory error detector
+==55852== Copyright (C) 2002-2017, and GNU GPL'd, by Julian Seward et al.
+==55852== Using Valgrind-3.15.0 and LibVEX; rerun with -h for copyright info
+==55852== Command: ws
+==55852== 
+[0] +++++++++++++
+License Plate:                     
+Model:         ==55852== 
+==55852== HEAP SUMMARY:
+==55852==     in use at exit: 0 bytes in 0 blocks
+==55852==   total heap usage: 10 allocs, 10 frees, 72,792 bytes allocated
+==55852== 
+==55852== All heap blocks were freed -- no leaks are possible
+==55852== 
+==55852== ERROR SUMMARY: 0 errors from 0 contexts (suppressed: 0 from 0)
+
+Script done on Fri 02 Feb 2024 10:18:45 AM EST
