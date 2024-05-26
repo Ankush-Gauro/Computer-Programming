@@ -1,0 +1,30 @@
+﻿  main.c
+C:\Users\ankus\Desktop\sft\Workshop5\main.c(8,21): error C2001: newline in constant
+C:\Users\ankus\Desktop\sft\Workshop5\main.c(9,1): error C2061: syntax error: identifier 'character'
+C:\Users\ankus\Desktop\sft\Workshop5\main.c(9,15): error C2017: illegal escape sequence
+C:\Users\ankus\Desktop\sft\Workshop5\main.c(9,54): error C2001: newline in constant
+C:\Users\ankus\Desktop\sft\Workshop5\main.c(13,23): error C2065: 'index': undeclared identifier
+C:\Users\ankus\Desktop\sft\Workshop5\main.c(13,24): error C2224: left of '.numLines' must have struct/union type
+C:\Users\ankus\Desktop\sft\Workshop5\main.c(15,19): error C2065: 'index': undeclared identifier
+C:\Users\ankus\Desktop\sft\Workshop5\main.c(15,20): error C2224: left of '.str' must have struct/union type
+C:\Users\ankus\Desktop\sft\Workshop5\main.c(15,30): error C2065: 'index': undeclared identifier
+C:\Users\ankus\Desktop\sft\Workshop5\main.c(15,31): error C2224: left of '.lineStarts' must have struct/union type
+C:\Users\ankus\Desktop\sft\Workshop5\main.c(15,46): warning C4047: 'function': 'const char *' differs in levels of indirection from 'int'
+C:\Users\ankus\Desktop\sft\Workshop5\main.c(15,46): warning C4024: 'printUntil': different types for formal and actual parameter 1
+C:\Users\ankus\Desktop\sft\Workshop5\main.c(15,3): error C2198: 'printUntil': too few arguments for call
+C:\Users\ankus\Desktop\sft\Workshop5\main.c(19,23): error C2065: 'index': undeclared identifier
+C:\Users\ankus\Desktop\sft\Workshop5\main.c(19,24): error C2224: left of '.numWords' must have struct/union type
+C:\Users\ankus\Desktop\sft\Workshop5\main.c(21,24): error C2065: 'index': undeclared identifier
+C:\Users\ankus\Desktop\sft\Workshop5\main.c(21,25): error C2224: left of '.str' must have struct/union type
+C:\Users\ankus\Desktop\sft\Workshop5\main.c(21,35): error C2065: 'index': undeclared identifier
+C:\Users\ankus\Desktop\sft\Workshop5\main.c(21,36): error C2224: left of '.wordStarts' must have struct/union type
+C:\Users\ankus\Desktop\sft\Workshop5\main.c(21,3): error C2198: 'printUntilSpace': too few arguments for call
+C:\Users\ankus\Desktop\sft\Workshop5\main.c(25,23): error C2065: 'index': undeclared identifier
+C:\Users\ankus\Desktop\sft\Workshop5\main.c(25,24): error C2224: left of '.numNumbers' must have struct/union type
+C:\Users\ankus\Desktop\sft\Workshop5\main.c(27,24): error C2065: 'index': undeclared identifier
+C:\Users\ankus\Desktop\sft\Workshop5\main.c(27,25): error C2224: left of '.str' must have struct/union type
+C:\Users\ankus\Desktop\sft\Workshop5\main.c(27,35): error C2065: 'index': undeclared identifier
+C:\Users\ankus\Desktop\sft\Workshop5\main.c(27,36): error C2224: left of '.numberStarts' must have struct/union type
+C:\Users\ankus\Desktop\sft\Workshop5\main.c(27,3): error C2198: 'printUntilSpace': too few arguments for call
+  stringhelp.c
+  Generating Code...
