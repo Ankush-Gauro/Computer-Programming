@@ -1,0 +1,13 @@
+/*
+-----------------------------------------------------------------------------
+ Author      : Ankush Gauro
+ Email       : agauro@myseneca.ca
+ Student Id  : 108593237
+ Section     : ZCC
+ Date		 : 2024-04-09
+ I have done all the coding by myself and only copied the code that my professor provided to complete my workshops and assignments.
+-----------------------------------------------------------------------------
+ */
+
+While completing this milestone project of Pre-Triage Application, I had the opportunity to go through notes and practice many useful and advance concepts of OOP in c++. I used a lot of operator overloadings specially the insertion (<<) and extraction (>>) operators I used virtual functions and templetes and many other OOP concepts.
+	I stumbled at many parts while coding this project, and got a lot of errors however the notes of oop we very useful in solving many confusions. I also used help of many online lessons from youtube to understand a concept like virtual function really well. Overall this was a very good experience.
