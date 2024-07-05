@@ -1,0 +1,22 @@
+In file included from BankAccount.cpp:16:0:
+BankAccount.h:11:0: warning: ignoring #pragma   [-Wunknown-pragmas]
+ #pragma
+ ^
+In file included from SavingsAccount.h:14:0,
+                 from SavingsAccount.cpp:16:
+BankAccount.h:11:0: warning: ignoring #pragma   [-Wunknown-pragmas]
+ #pragma
+ ^
+In file included from SavingsAccount.cpp:18:0:
+BankAccount.h:11:0: warning: ignoring #pragma   [-Wunknown-pragmas]
+ #pragma
+ ^
+In file included from main_prof.cpp:14:0:
+BankAccount.h:11:0: warning: ignoring #pragma   [-Wunknown-pragmas]
+ #pragma
+ ^
+In file included from SavingsAccount.h:14:0,
+                 from main_prof.cpp:15:
+BankAccount.h:11:0: warning: ignoring #pragma   [-Wunknown-pragmas]
+ #pragma
+ ^

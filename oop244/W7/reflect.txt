@@ -1,0 +1,12 @@
+/*
+-----------------------------------------------------------------------------
+ Author      : Ankush Gauro
+ Email       : agauro@myseneca.ca
+ Student Id  : 108593237
+ Section     : ZCC
+ Date		 : 2024-03-20
+ I have done all the coding by myself and only copied the code that my professor provided to complete my workshops and assignments.
+-----------------------------------------------------------------------------
+ */
+
+This workshop 7 was also like workshop 6, quite different from all other workshops, as here too we only had one part, the lab one. While completing this workshop, I had to go through the notes of the oop in order to fully grasp the concepts before I started working on this workshop. I had the opportunity of working with and practicing my concepts of inheritence, the concept of shadowing and the input output operation, Here I inherited the methods and attributes of the BankAccount class, the parent class, with 4 private data members, 3 protected data members and 6 public data members, to the SavingsAccount class, the child class which will inherit the data members of the parent class as well as have it's own data members, 3 private and 6 public data members.
