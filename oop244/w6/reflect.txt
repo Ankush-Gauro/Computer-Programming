@@ -1,0 +1,12 @@
+/*
+-----------------------------------------------------------------------------
+ Author      : Ankush Gauro
+ Email       : agauro@myseneca.ca
+ Student Id  : 108593237
+ Section     : ZCC
+ Date		 : 2024-03-12
+ I have done all the coding by myself and only copied the code that my professor provided to complete my workshops and assignments.
+-----------------------------------------------------------------------------
+ */
+
+This workshop 6 was quite different from all other workshops we got until now because it had only one part, the lab one. While completing this workshop, I had to go through the notes of the oop in order to fully grasp the concepts before I started working on this workshop. I had the opportunity of working with and practicing my concepts of input and output operations, specially the using of "fstream" system library in order to read and write from the csv files that we were provided with, the emailFile_test1.csv and emailFile_test2.csv. Also, I got to work with the copy constructor and destructor, copy assignment operators and I got to know about a strategy called localization, which is to implement a private function in our class that does all the copying process. I used copy constructor to make a copy of email file and it's name, number of emails and copy each email. I also used the copy assignment to overwrite the contents via emailFile. On top of that, I had to use safe-assignment in each step in order to verify if the inputs are correct.
