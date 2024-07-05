@@ -1,0 +1,12 @@
+/*
+-----------------------------------------------------------------------------
+ Author      : Ankush Gauro
+ Email       : agauro@myseneca.ca
+ Student Id  : 108593237
+ Section     : ZCC
+ Date		 : 2024-03-26
+ I have done all the coding by myself and only copied the code that my professor provided to complete my workshops and assignments.
+-----------------------------------------------------------------------------
+ */
+
+While completing this workshop 8, I had to go through the notes of the oop in order to fully grasp the concepts before I started working on this workshop, specially the inheritence part and virtual functions part. I had the opportunity of working with and practicing my concepts of inheritence, the concept of virtual functions and also working with abstract base class and concrete classes.
