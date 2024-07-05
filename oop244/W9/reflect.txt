@@ -1,0 +1,12 @@
+/*
+-----------------------------------------------------------------------------
+ Author      : Ankush Gauro
+ Email       : agauro@myseneca.ca
+ Student Id  : 108593237
+ Section     : ZCC
+ Date		 : 2024-03-31
+ I have done all the coding by myself and only copied the code that my professor provided to complete my workshops and assignments.
+-----------------------------------------------------------------------------
+ */
+
+While completing this workshop 9, I read the oop notes thoroughly to completely understand the concepts of inheritence, polymorphism, virtual functions. I had the opportunity of working with and practicing my concepts of inheritence, the concept of virtual functions. I also learned to work with and reuse the functionality of parent class into child class.

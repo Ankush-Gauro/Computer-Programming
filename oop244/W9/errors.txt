@@ -1,0 +1,25 @@
+Book.cpp: In constructor ‘seneca::Book::Book(const char*, int, const char*)’:
+Book.cpp:21:42: error: ‘strlen’ was not declared in this scope
+         m_author = new char[strlen(author) + 1];
+                                          ^
+Book.cpp:22:32: error: ‘strcpy’ was not declared in this scope
+         strcpy(m_author, author);
+                                ^
+Book.cpp: In copy constructor ‘seneca::Book::Book(const seneca::Book&)’:
+Book.cpp:26:50: error: ‘strlen’ was not declared in this scope
+         m_author = new char[strlen(other.m_author) + 1];
+                                                  ^
+Book.cpp:27:40: error: ‘strcpy’ was not declared in this scope
+         strcpy(m_author, other.m_author);
+                                        ^
+Book.cpp: In member function ‘seneca::Book& seneca::Book::operator=(const seneca::Book&)’:
+Book.cpp:34:54: error: ‘strlen’ was not declared in this scope
+             m_author = new char[strlen(other.m_author) + 1];
+                                                      ^
+Book.cpp:35:44: error: ‘strcpy’ was not declared in this scope
+             strcpy(m_author, other.m_author);
+                                            ^
+Book.cpp: In member function ‘bool seneca::Book::operator>(const seneca::Book&) const’:
+Book.cpp:52:51: error: ‘strcmp’ was not declared in this scope
+             return strcmp(m_author, other.m_author) > 0;
+                                                   ^
