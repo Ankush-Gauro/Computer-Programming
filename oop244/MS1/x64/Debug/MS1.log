@@ -1,0 +1,4 @@
+﻿menuTester.obj : error LNK2005: main already defined in main.obj
+timeTester.obj : error LNK2005: "class seneca::Time __cdecl readTime(void)" (?readTime@@YA?AVTime@seneca@@XZ) already defined in main.obj
+timeTester.obj : error LNK2005: main already defined in main.obj
+C:\Users\ankus\Desktop\oop\MS1\x64\Debug\MS1.exe : fatal error LNK1169: one or more multiply defined symbols found
