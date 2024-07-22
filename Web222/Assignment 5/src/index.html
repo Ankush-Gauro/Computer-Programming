@@ -1,0 +1,156 @@
+<html lang="en-CA">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=500, initial-scale=1" />
+
+    <!-- Change this to your name-->
+    <meta name="Ankush Gauro" content="Ankush Gauro" />
+
+    <title>WEB222 Music App Assignment 5</title>
+
+    <!-- Classless CSS Stylesheet - https://watercss.kognise.dev/ -->
+    <link rel="stylesheet" href="./css/water.css" />
+    <style>
+      body {
+        font-family: "Gill Sans", sans-serif;
+        font-size: 1.2rem;
+        background-color: #457b9d;
+        margin: 0;
+        padding: 0;
+        text-align: center;
+      }
+      header {
+        margin: 0 auto; /* Center the box horizontally */
+        text-align: center;
+        font-size: 2rem;
+      }
+
+      #box1 {
+        margin: 0 auto; /* Center the box horizontally */
+        border: 1px solid #1d3557; /* Border style */
+        padding: 15px;
+        margin: 15px 0;
+        background-color: #a8dadc; /* Background color */
+        text-align: center;
+        font-size: 1.5rem;
+      }
+
+      /* Style for the menu box */
+      #menu {
+        font-size: 1.5rem;
+        margin: 0 auto; /* Center the box horizontally */
+        border: 1px solid #f1faee; /* Border style */
+        padding: 10px;
+        margin: 10px 0;
+        background-color: #1d3557;
+        text-align: center;
+      }
+
+      #menu button {
+        background-color: #e63946;
+        color: #f1faee;
+        font-size: 1.5rem;
+        padding: 10px 20px; /* Adjust padding to increase button size */
+        margin: 5px;
+        border-radius: 7px;
+      }
+
+      #menu button span {
+        font-size: 1.2rem; /* Adjust the font size as needed */
+      }
+
+      #songs {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+      }
+
+      .song-card-container {
+        display: flex;
+        flex-wrap: wrap;
+        max-width: 700px;
+        margin: 50px;
+        justify-content: space-around; /* alignment of cards */
+      }
+
+      .song-card {
+        box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+        transition: 0.3s;
+        background-color: #f1faee;
+        border: 1px solid #1d3557;
+        padding: 20px;
+        margin: 20px;
+        width: calc(25% - 40px); /* 25% to get 4 cards in a row, subtracting margins and paddings*/
+        box-sizing: border-box;
+        text-align: center;
+        display: flex;
+        flex-direction: column;
+        border-radius: 7px;
+      }
+
+      .song-card:hover {
+        box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);
+      }
+
+      .song-card img {
+        width: 100%;
+        height: auto;
+        border-radius: 7px 7px 0 0;
+        cursor: pointer;
+      }
+
+      .card-background-color {
+        background-color: #f1faee;
+      }
+
+      .song-details {
+        /* Song details section takes up available space and aligns content vertically */
+        flex-grow: 1;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+      }
+
+      .song-details h2 {
+        margin-bottom: 10px;
+        font-size: 1.2rem;
+      }
+
+      .song-details span {
+        font-size: 1rem;
+        color: #555;
+      }
+    </style>
+  </head>
+
+  <body>
+    <header>
+      <div id="box1" class="box1">
+        <!-- My App's info -->
+        <h1>Nepali songs</h1>
+        <!-- Slogan -->
+        <p>Your gateway to Nepali Music!!</p>
+      </div>
+    </header>
+    <br />
+
+    <nav id="menu">
+      <!-- Dynamically create menu category buttons-->
+    </nav>
+
+    <main>
+      <h2 id="selected-artist">
+        <!-- Dynamically update the selected category title -->
+      </h2>
+      <br />
+
+      <div id="songs">
+        <!-- Dynamically create song cards-->
+      </div>
+    </main>
+
+    <script src="./js/artists.js"></script>
+    <script src="./js/songs.js"></script>
+    <script src="./js/app.js"></script>
+  </body>
+</html>
